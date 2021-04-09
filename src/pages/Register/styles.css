@@ -1,0 +1,91 @@
+
+.register-page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+.register-page h3 {
+  color: #fff;
+}
+
+.register-page__form {
+  background: #fff;
+  padding: 24px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.register-page__form__control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  max-width: calc(50% - 8px);
+  width: calc(50% - 8px);
+}
+
+
+.register-page__form__control strong {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+
+.register-page__form__control input {
+  background: #F2F2F2;
+  border-radius: 15px;
+  color: #808080;
+  border: 0;
+  padding: 16px 40px;
+  line-height: 26px;
+  font-size: 16px;
+}
+
+.register-page__form button {
+  background: #FECB06;
+  color: #795200;
+  border: 0;
+  text-transform: uppercase;
+  border-radius: 15px;
+  width: 70%;
+  padding: 16px 40px;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 600;
+  width: 100%;
+}
+
+.register-page__list-teachers {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+}
+
+.register-page__list-teachers li {
+  padding: 24px 40px;
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: 600;
+  background: #fff;
+  border-radius: 15px;
+}
+
+.register-page__list-teachers li:not(:first-child) {
+  margin-top: 16px;
+}
+
+.register-page__list-teachers li a {
+  text-decoration: none;
+}
+
+.register-page__list-teachers li a:hover {
+  text-decoration: underline;
+}

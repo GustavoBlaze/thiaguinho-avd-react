@@ -1,0 +1,39 @@
+
+.teacher-page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+.teacher-page header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.teacher-page header h2 {
+  color: #fff;
+}
+
+.teacher-page header a {
+  color: #fff;
+  font-size: 16px;
+}
+
+.teacher-page__list {
+  list-style: none;
+  padding: 0;
+}
+
+.teacher-page__list li {
+  background: #fff;
+  border-radius: 15px;
+  padding: 16px 32px;
+}
+
+.teacher-page__list li:not(:first-child) {
+  margin-top: 16px;
+}
